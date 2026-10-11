@@ -1,0 +1,16 @@
+[packet_client.id]
+MOVE_REQUEST = "MoveRequest"
+LOGIN_REQUEST = "LoginRequest"
+KEEP_ALIVE = "KeepAlive"
+
+[packet_client.model]
+AssetRemoveCommand = "AssetRemoveCommand"
+
+[raylib]
+"ships.rs:ASSET_REMOVE_COMMAND" = "AssetRemoveCommand"
+
+[server.live]
+MoveRequest = "MoveRequest"
+LoginRequest = "LoginRequest"
+KeepAlive = "KeepAlive"
+AssetRemoveCommand = "AssetRemoveCommand"
