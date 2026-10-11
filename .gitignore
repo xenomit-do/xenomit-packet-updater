@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+upgrade.json
+*.swf
+.work/
+
+# Machine-local state and downloaded assets
+/target*/
+/.next/
+/.xenomit-assets/
+/asset-catalog/
+/runtime/
+/build/
+/.smoke-token.txt
+/.orchestrator-dev.json
+.env
+.env.local
+*.pem
+*.key

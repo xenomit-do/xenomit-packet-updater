@@ -1,0 +1,62 @@
+[
+  {
+    "name": "MoveRequest",
+    "module_id": 82,
+    "parent": null,
+    "file": "MoveRequest.as",
+    "read_ops": [
+      {"op": "i32_rot", "name": "targetY", "dir": "ror", "bits": 8, "width": 32},
+      {"op": "i32_rot", "name": "posX", "dir": "ror", "bits": 15, "width": 32}
+    ],
+    "write_ops": [
+      {"op": "i32_rot", "name": "targetY", "dir": "rol", "bits": 8, "width": 32},
+      {"op": "i32_rot", "name": "posX", "dir": "rol", "bits": 15, "width": 32}
+    ],
+    "errors": []
+  },
+  {
+    "name": "LoginRequest",
+    "module_id": 7,
+    "parent": null,
+    "file": "LoginRequest.as",
+    "read_ops": [],
+    "write_ops": [
+      {"op": "i32", "name": "userID"},
+      {"op": "i16", "name": "factionID"},
+      {"op": "utf", "name": "sessionID"},
+      {"op": "utf", "name": "version"}
+    ],
+    "errors": []
+  },
+  {
+    "name": "AssetRemoveCommand",
+    "module_id": 3245,
+    "parent": null,
+    "file": "AssetRemoveCommand.as",
+    "read_ops": [
+      {"op": "i32", "name": "uid"}
+    ],
+    "write_ops": [],
+    "errors": []
+  },
+  {
+    "name": "KeepAlive",
+    "module_id": 2,
+    "parent": null,
+    "file": "KeepAlive.as",
+    "read_ops": [],
+    "write_ops": [
+      {"op": "bool", "name": "MouseClick"}
+    ],
+    "errors": []
+  },
+  {
+    "name": "UnboundExtra",
+    "module_id": 9999,
+    "parent": null,
+    "file": "UnboundExtra.as",
+    "read_ops": [{"op": "i16", "name": "x"}],
+    "write_ops": [],
+    "errors": []
+  }
+]
